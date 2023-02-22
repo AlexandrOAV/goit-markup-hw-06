@@ -391,7 +391,7 @@ color: var(--active-address-color);
     .customers-link:is(:hover, :focus) .customers-icon {
       fill: currentColor;
     }
- /*----------------- futer-------------------------------- */
+ /*----------------- footer-------------------------------- */
  .last {
   background-color: var(--background-color-herofut);
   padding-top: 100px;
@@ -403,8 +403,12 @@ margin-right: 0;
  }
  .last-block{
   display: flex;
-  gap: 120px;
+  /* gap: 120px; */
   align-items: baseline;
+ }
+ .last-social{
+  margin-left: 120px;
+  
  }
  .last-social-text{
    margin-bottom: 16px;
@@ -452,7 +456,9 @@ margin-right: 0;
 .last-social-link:is(:hover, :focus) {
   background-color: #31D0AA;
 }
-
+.footer-form-block{
+  margin-left: auto;
+}
 .input-block-footer{
   display: flex;
   gap: 24px;
