@@ -700,6 +700,14 @@ transform:translateY(0);
     letter-spacing: 0.01em;
     color:var(--color-text-label);
 }
+.label-checkbox{
+font-weight: 400;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.04em;
+color: #757575;
+margin-left: 8px;
+}
 .modal-message{
   width: 100%;
   height: 120px;
