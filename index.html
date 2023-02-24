@@ -501,7 +501,7 @@
               </svg>
             </div>
           </div>
-          <div class="input-block">
+          <div class="input-block-message">
             <label class="head-label" for="client-message">Comment</label>
             <textarea
               name="client-message"
@@ -509,28 +509,28 @@
               id="client-message"
               placeholder="Text input"
             ></textarea>
-            <div class="icon-block">
-              <input
-                type="checkbox"
-                class="input-checkbox visually-hidden"
-                name="politoco"
-                id="politico"
-                value="true"
-                required
-              />
+          </div>
 
-              <label for="politico" class="label-checkbox">
-                <span class="check-icon">
-                  <svg class="ok-icon" width="10" height="8">
-                    <use href="./images/icons.svg#icon-ok"></use>
-                  </svg>
-                </span>
-                <span>
-                  I accept the terms and conditions of the
-                  <a href="" class="politico-link link"> Privacy Policy</a>
-                </span>
-              </label>
-            </div>
+          <div class="checkbox-block">
+            <input
+              type="checkbox"
+              class="input-checkbox visually-hidden"
+              name="politoco"
+              id="politico"
+              value="true"
+              required
+            />
+            <label for="politico" class="label-checkbox">
+              <span class="check-icon">
+                <svg class="ok-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-ok"></use>
+                </svg>
+              </span>
+              <span>
+                I accept the terms and conditions of the
+                <a href="" class="politico-link link"> Privacy Policy</a>
+              </span>
+            </label>
           </div>
           <button type="submit" class="modal-button">Send</button>
         </form>
@@ -539,4 +539,3 @@
     <script src="./js/modal.js"></script>
   </body>
 </html>
-<!-- is-hidden -->
